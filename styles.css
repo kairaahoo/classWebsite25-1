@@ -1,0 +1,8 @@
+body {
+    background-color: #dfd5fa;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    h2 {
+    color: rgb(135, 100, 230);
+    text-decoration: underline;
+}
