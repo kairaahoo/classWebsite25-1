@@ -1,5 +1,13 @@
+:root {
+/* CSS HSL */
+--amaranth-pink: hsla(350, 54%, 75%, 1);
+--platinum: hsla(180, 17%, 86%, 1);
+--ivory: hsla(80, 43%, 96%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--cadet-gray: hsla(183, 10%, 61%, 1);
+}
 body {
-    background-color: #dfd5fa;
+    background-color: #e19ba7;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     background-image: url(images/gudetama.jpeg);
@@ -7,14 +15,24 @@ body {
     background-repeat: no-repeat;
 }
 h2 {
-    color: rgb(135, 100, 230);
+    color: #e19ba7;
     text-decoration: underline;
     text-align: center;
 }
 #polar-bear {
-    margin:auto
+    margin:auto;
     display: block;
 }
 #home {
     width: 28px;
+}
+    .main-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--amaranth-pink);
+    }
+    #site-logo{
+        max-width: 120px;
+    }
 }
